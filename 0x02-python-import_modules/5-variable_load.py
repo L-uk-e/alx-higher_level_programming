@@ -2,5 +2,5 @@
 
 if __name__ == "__main__":
     from variable_load_5.py import a
-
+    a = int(a)
     print(a)
