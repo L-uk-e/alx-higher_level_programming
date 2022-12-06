@@ -18,7 +18,7 @@ def add_tuple(tuple_a=(), tuple_b=()):
         second = tuple_a[1]
     else:
         second = tuple_a[1] + tuple_b[1]
-        
+
     my_tuple = (first, second)
 
     return my_tuple
