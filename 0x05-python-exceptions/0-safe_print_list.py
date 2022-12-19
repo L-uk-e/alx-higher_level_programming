@@ -9,11 +9,6 @@ def safe_print_list(my_list=[], x=0):
             count += 1
 
         except IndexError:
-            #print("The list doesn't contain any more values", end="")
-            break
-
-        except:
-            #print("An unknown error has occured", end="")
             break
     print()
 

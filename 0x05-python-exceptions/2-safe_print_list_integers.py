@@ -16,10 +16,6 @@ def safe_print_list_integers(mylist=[], x=0):
 
         except IndexError:
             break
-
-#        except:
- #           print("A Unknown error")
-  #          break
     print()
 
     return count
