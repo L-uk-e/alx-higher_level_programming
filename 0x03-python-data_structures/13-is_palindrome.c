@@ -13,8 +13,6 @@ int is_palindrome(listint_t **head)
 	int count = 1;
 	int idx = 0;
 	int idx2 = 0;
-	int first_array[];
-	int reversed_array[];
 
 	if (*head == NULL)
 		return (1);
@@ -25,6 +23,9 @@ int is_palindrome(listint_t **head)
 		temp_p = temp_p->next;
 		count++;
 	}
+	int first_array[count];
+	int reversed_array[count];
+
 	temp_p = *head;
 	while (temp_p != NULL)
 	{
