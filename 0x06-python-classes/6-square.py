@@ -12,8 +12,8 @@ class Square:
         Args:
             size (int): The length of the side of the square.
             position (int, int): The position of the square."""
-            self.size = size
-            self.position = position
+        self.size = size
+        self.position = position
 
     def area(self):
         """Returns the area of a square"""
@@ -46,7 +46,7 @@ class Square:
             self.__position = value
 
     def my_print(self):
-        """Represents the square using '#' character plus spaces for position."""
+        """Represents the square using '#' and position using spaces"""
         if self.size == 0:
             print()
         for x in range(self.size):
