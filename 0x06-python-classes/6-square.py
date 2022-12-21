@@ -52,9 +52,9 @@ class Square:
         for x in range(self.size):
             for z in range(self.position[0]):
                 if self.position[1] > 0:
-                    print("_", end="")
-                else:
                     print(" ", end="")
+                else:
+                    print("_", end="")
             for y in range(self.size):
                 print("#", end="")
             print()
